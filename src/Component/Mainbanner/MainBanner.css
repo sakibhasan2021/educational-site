@@ -1,0 +1,41 @@
+.banner-container{
+    margin: 50px 0;
+
+}
+.sub-text{
+    animation-name: textShow;
+    animation-duration:3s;
+}
+@keyframes textShow {
+    0%{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    100%{
+        opacity:1;
+        transfrom:translate(0);
+    }
+}
+
+.top-image img{
+    animation-name:imageLeft;
+    animation-duration:3s;
+}
+@keyframes imageLeft {
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100%{
+        opacity:1;
+        transfrom:translate(0);
+    }
+}
+#CourseSub-text{
+    color:rgb(128, 128, 128);
+}
+.Button{
+    background-color:rgb(168, 66, 66);
+    border:none;
+
+}
